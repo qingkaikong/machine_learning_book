@@ -203,6 +203,11 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#about-the-auto-numbering">
+   About the Auto-Numbering
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#inside-of-the-notebooks">
    Inside of the notebooks
   </a>
@@ -231,9 +236,23 @@
 </div>
 <p>Where XX start with 01, and YY start with 01.</p>
 </div>
+<div class="section" id="about-the-auto-numbering">
+<h1>About the Auto-Numbering<a class="headerlink" href="#about-the-auto-numbering" title="Permalink to this headline">¶</a></h1>
+<p>To reduce the efforts keeping tracking all the numbers showing each chapter and sub-section. I use the auto-numbering function that is defined in the <em>_toc.yml</em>. But it has some constraints:</p>
+<ul class="simple">
+<li><p>The notebook that in the chapter section, if you add any sections there, it will automatically add into the 2nd level, therefore, don’t add any sections in this file.</p></li>
+<li><p>The subsection files should start with # (this will be the 2nd level numbering, such as 1.1, 1.2 etc). Then adding any sections here will add next level, such as ## will be 1.1.1.</p></li>
+<li><p>In <em>_toc.yml</em>, I only allow 3 levels numbering, therefore, anything further than ### will not be numbered.</p></li>
+</ul>
+</div>
 <div class="section" id="inside-of-the-notebooks">
 <h1>Inside of the notebooks<a class="headerlink" href="#inside-of-the-notebooks" title="Permalink to this headline">¶</a></h1>
-<p>Each notebook should start with a markdown cell with the title of this section, starting with the first level header (this is, just one #). The first notebook for each chapter should start “Chapter X Name of the Content”. For the rest of the chapter, it should start with the numerical number, for example “1 What is Machine Learning” etc. This way, the TOC on the website will look nice.</p>
+<p>The following comes from <a class="reference external" href="https://jupyterbook.org/file-types/index.html#rules-for-all-content-types">Jupyter book recommendations</a>.</p>
+<ul class="simple">
+<li><p>Files must have a title. Generally this means that they must begin with a line that starts with a single #</p></li>
+<li><p>Use only one top-level header. Because each page must have a clear title, it must also only have one top-level header. You cannot have multiple headers with single # tag in them.</p></li>
+<li><p>Headers should increase linearly. If you’re inside of a section with one #, then the next nested section should start with ##. Avoid jumping straight from # to ###.</p></li>
+</ul>
 </div>
 
     <script type="text/x-thebe-config">
