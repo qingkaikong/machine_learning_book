@@ -1,4 +1,4 @@
-# Welcome to the Machine Learning Book
+# Welcome Page
 
 Authors: [Qingkai Kong](https://qingkaikong.github.io/) [Evan Muzzall](https://library.stanford.edu/people/muzzall)
 
