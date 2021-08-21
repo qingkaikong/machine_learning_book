@@ -1,16 +1,11 @@
-# Welcome to your Jupyter Book
+# Welcome to the Machine Learning Book
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Authors: [Qingkai Kong](https://qingkaikong.github.io/) [Evan Muzzall](https://library.stanford.edu/people/muzzall)
+
+This is a book gives introduction to various machine learning models. We try to make the book as much intuitive as possible with examples in both Python and R. 
 
 :::{note}
-Here is a note!
+Machine learning is fun!
 :::
 
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+**This book is currently under developing, and if you have any questions/suggestions, feel free to contact the authors.**
