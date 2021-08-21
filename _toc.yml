@@ -5,5 +5,5 @@ format: jb-book
 root: index 
 chapters:
 - file: notebooks/Chapter01.00-Introduction
-  sections
+  sections:
     - file: notebooks/Chapter01.01-What-is-Machine-Learning
