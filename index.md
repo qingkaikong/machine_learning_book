@@ -1,6 +1,6 @@
 # Welcome Page
 
-Authors: [Qingkai Kong](https://qingkaikong.github.io/) [Evan Muzzall](https://library.stanford.edu/people/muzzall)
+Authors: [Qingkai Kong](https://qingkaikong.github.io/) and [Evan Muzzall](https://library.stanford.edu/people/muzzall)
 
 This is a book gives introduction to various machine learning models. We try to make the book as much intuitive as possible with examples in both Python and R. 
 
